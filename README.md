@@ -90,6 +90,37 @@ Run the script and observe the accounts being created
 When finished, open ADUC and observe the accounts in the appropriate OU　(_EMPLOYEES)
 attempt to log into Client-1 with one of the accounts (take note of the password in the script)
 when it is finished it should be like the example above 
+![image](https://github.com/user-attachments/assets/e2e52cd2-e4c3-44d8-93c6-00079276cd90)
+
+(GROUP POLICY AND MANAGING ACCOUNTS) Dealing with Account Lockouts
+Get logged into dc-1
+Pick a random user account you created previously
+Attempt to log in with it 10 times with a bad password
+
+Configure Group Policy to Lockout the account after 5 attempts:
+How To Configure Account Lockout Threshold in Group Policy
+
+Attempt to log in with it 6 times with a bad password
+
+Observe that the account has been locked out within Active Directory
+Unlock the account
+Reset the password
+Attempt to login with it
+
+Enabling and Disabling Accounts
+Disable the same account in Active Directory
+Attempt to login with it, observe the error message
+Re-enable the account and attempt to login with it.
+
+Observing Logs
+Observe the logs in the Domain Controller
+Observe the logs on the client Machine
+after editing the group policy you should have the options above to change the duration for account lockout
+
+
+
+
+
 
 
 
