@@ -33,8 +33,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 
-"/>
-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="![image](https://github.com/user-attachments/assets/a4f59af1-6444-4c97-a95e-ad1a2996ad2d)
+/>
+</p>
+
 </p>
 One of the first things to do when preparing Active Directory is to make a VM. (virtual machine) Two of them to be exact. One of these VMs will be the Domain controller which IP addresss will be set to static. This is important because we don't want the private IP address to change. You can do this in Microsoft Azure by going the VM created for domain controller by going to Networking - Network settings - Network interface - ipconfig1   
 
@@ -44,7 +46,7 @@ One of the first things to do when preparing Active Directory is to make a VM. (
 <br />
 
 <p>
-<img src="![image](https://github.com/user-attachments/assets/2a85a6e6-8b9d-4d78-894c-957543712628)
+<img src="![image](https://cdn.discordapp.com/attachments/400782808970428418/1337880484189048844/Static.JPG?ex=67a90dcc&is=67a7bc4c&hm=7e0314ac95c2d8cdc61ce44e8588e954ef3bef2229e7769946e11cbc6a9aa674&)
 " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
