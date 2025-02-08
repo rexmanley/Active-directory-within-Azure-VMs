@@ -33,29 +33,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 
-<img src="![image](https://github.com/user-attachments/assets/a4f59af1-6444-4c97-a95e-ad1a2996ad2d)
+"![image](https://github.com/user-attachments/assets/a4f59af1-6444-4c97-a95e-ad1a2996ad2d)
 />
 </p>
 
 </p>
-One of the first things to do when preparing Active Directory is to make a VM. (virtual machine) Two of them to be exact. One of these VMs will be the Domain controller which IP addresss will be set to static. This is important because we don't want the private IP address to change. You can do this in Microsoft Azure by going the VM created for domain controller by going to Networking - Network settings - Network interface - ipconfig1   
+(PREPARING ACTIVE DIRECTORY)One of the first things to do when preparing Active Directory is to make a VM. (virtual machine) Two of them to be exact. One of these VMs will be the Domain controller which IP addresss will be set to static. This is important because we don't want the private IP address to change. You can do this in Microsoft Azure by going the VM created for domain controller by going to Networking - Network settings - Network interface - ipconfig1. As you can see in the image above if you follow the directory you can then set the domain to static.   
 
-<p>
-
+![image](https://github.com/user-attachments/assets/d87ab95b-ab25-4d6b-8193-0384e5c185ac)
 </p>
+<p>
+After the two VMS are set you want to log in to the domain controller. Here we will disable the firewall for the two VMS to connect. You can Start this by right clicking start (in the VM not your desktop) and then clicking "run" once it is up type "wf.msc" (Windows firewall) and then disable it from within. As Shown above. /p>
 <br />
 
 <p>
-<img src="![image](https://cdn.discordapp.com/attachments/400782808970428418/1337880484189048844/Static.JPG?ex=67a90dcc&is=67a7bc4c&hm=7e0314ac95c2d8cdc61ce44e8588e954ef3bef2229e7769946e11cbc6a9aa674&)
+<img src="![image](https://github.com/user-attachments/assets/29268dde-e084-4ddd-9e88-1991ae646014)
 " height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
