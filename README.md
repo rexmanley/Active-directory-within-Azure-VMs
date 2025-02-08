@@ -29,7 +29,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 3: Creating Users with Powershell
 - Step 4: Group Policy and Managing Accounts
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Preparing Active Directory and Deployment Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
